@@ -1,20 +1,21 @@
-# 📈 Nigeria Inflation Forecasting with Machine Learning
+# Forecasting Nigeria Inflation Rate: Comparative Analysis of CNN and LSTM Models
 
-A comprehensive machine learning project for forecasting Nigeria's inflation rates using LSTM neural networks and historical economic data from 2004-2024.
+## Research Overview
+This repository contains the complete implementation and analysis for the research paper "Forecasting Nigeria Inflation Rate: Comparative Analysis on Two Machine Learning Algorithms". The study compares 1D-CNN and LSTM models for forecasting Nigeria's monthly inflation rates.
 
-## 🚀 Overview
-
-This project implements a deep learning approach to predict Nigeria's monthly inflation rates using Long Short-Term Memory (LSTM) networks. The model analyzes historical trends and patterns to provide accurate inflation forecasts, which can be valuable for economic planning, policy-making, and financial analysis.
+## Key Features
+- **Data**: Monthly inflation data from Central Bank of Nigeria (2004-2024)
+- **Models**: 1D-CNN and LSTM implementations in both TensorFlow and PyTorch
+- **Analysis**: Comprehensive EDA, model comparison, and 2025 forecasts
+- **Results**: Performance metrics, visualizations, and future predictions
 
 ## 📊 Dataset
-
 - **Source**: Nigeria monthly inflation data (2004-2024)
 - **Records**: 240 monthly observations
 - **Features**: Date, Inflation Rate (%)
 - **Time Span**: January 2004 to December 2024
 
 ## 🛠️ Technical Stack
-
 - **Programming Language**: Python 3.8+
 - **Deep Learning**: PyTorch
 - **Data Processing**: pandas, numpy
